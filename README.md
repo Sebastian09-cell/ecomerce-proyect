@@ -4,7 +4,8 @@ Tienda en línea construida con React y TypeScript, con carrito de compras persi
 
 ## ✨ Demo
 
-🔗 **[Ver proyecto en vivo](TU_LINK_DE_VERCEL_AQUI)**
+🔗 **[Ver proyecto en vivo](https://illustrious-bonbon-2955de.netlify.app/)**
+
 
 ## 🚀 Features
 
