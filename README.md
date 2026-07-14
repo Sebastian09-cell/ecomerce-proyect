@@ -1,32 +1,48 @@
-# React + TypeScript + Vite
+# 🛒 E-commerce Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Tienda en línea construida con React y TypeScript, con carrito de compras persistente, checkout con validación de formularios y consumo de API en tiempo real.
 
-Currently, two official plugins are available:
+## ✨ Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 **[Ver proyecto en vivo](TU_LINK_DE_VERCEL_AQUI)**
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🛍️ Catálogo de productos consumido desde [FakeStore API](https://fakestoreapi.com/)
+- 🗂️ Filtrado por categorías
+- 🛒 Carrito de compras con persistencia (sobrevive a recargas de página)
+- ➕➖ Control de cantidades y eliminación de productos en el carrito
+- ✅ Checkout con validación de formulario (contacto, envío y tarjeta)
+- 💳 Simulación de pago con POST a la API
+- 🎉 Modal de confirmación tras compra exitosa
+- 📱 Diseño responsive con Chakra UI
+- 🎬 Transiciones y animaciones con Framer Motion
 
-## Expanding the Oxlint configuration
+## 🛠️ Stack
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+| Categoría | Tecnología |
+|---|---|
+| Framework | React + TypeScript |
+| Build tool | Vite |
+| Estado global | Zustand (con middleware `persist`) |
+| Data fetching | React Query + Axios |
+| Formularios | React Hook Form + Zod |
+| UI | Chakra UI |
+| Animaciones | Framer Motion |
+| Routing | React Router |
+| Deploy | Vercel |
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+## 📸 Capturas
+
+<!-- Agrega aquí 2-3 screenshots del catálogo, carrito y checkout -->
+
+## 🧑‍💻 Instalación local
+
+```bash
+git clone https://github.com/Sebastian09-cell/ecomerce-proyect.git
+cd ecomerce-proyect
+npm install
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## 📂 Estructura del proyecto
